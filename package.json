@@ -1,6 +1,6 @@
 {
   "name": "http-status-utility",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JS utility to handle http status codes",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/luisvent/http-status-utility.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["http", "code", "status", "express", "connect", "apache", "node", "httpClient", "httpServer", "httpStatus"],
+  "author": "Luis Ventura",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/luisvent/http-status-utility/issues"

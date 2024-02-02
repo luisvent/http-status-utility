@@ -11,7 +11,7 @@ $ npm install http-status-utility
 ```
 ## Usage
 
-```sh
+```js
 const { StatusCode, getStatus, getCode } = require('http-status-utility');
 
 // Get the status message from a status code
@@ -35,7 +35,7 @@ Returns: (Number) The corresponding status code.
 
 ## Examples
 ### Example 1:
-```sh
+```js
 const { StatusCode, getStatus, getCode } = require('http-status-utility');
 
 const statusMessage = getStatus(404);
@@ -45,7 +45,7 @@ const statusCode = getCode("OK");
 console.log(statusCode); // Output: 200
 ```
 ### Example 2:
-```sh
+```js
 const { StatusCode, getStatus, getCode } = require('http-status-utility');
 
 const statusMessage = getStatus(500);
