@@ -54,6 +54,22 @@ console.log(statusMessage); // Output: "Internal Server Error"
 const statusCode = getCode("Bad Request");
 console.log(statusCode); // Output: 400
 ```
+## StatusCode
+
+The StatusCode module provides a collection of HTTP status codes along with their associated descriptions. These codes are grouped into different categories, such as Client Errors, Informational, Redirection, Server Errors, and Success.
+
+### Usage
+To use this module in your JavaScript/Node.js application, first, import it as follows:
+```js
+const { StatusCode } = require('http-status-utility');
+```
+### Example
+```js
+const { StatusCode } = require('./path/to/status_code');
+
+const status = StatusCode.SuccessOK;
+console.log(status); // Output: 200
+```
 
 Feel free to customize this library according to your project requirements. Enjoy using it!
 
