@@ -1,5 +1,7 @@
 # HTTP Status Utility
 
+[![NPM](https://nodei.co/npm/http-status-utility.png)](https://www.npmjs.com/package/http-status-utility/)
+
 This lightweight JavaScript library provides utility functions to work with HTTP status codes. It includes functions to get the status message from a given status code and vice versa. The library is easy to use and can be integrated into your projects effortlessly.
 
 ## Installation
@@ -65,7 +67,7 @@ const { StatusCode } = require('http-status-utility');
 ```
 ### Example
 ```js
-const { StatusCode } = require('./path/to/status_code');
+const { StatusCode } = require('http-status-utility');
 
 const status = StatusCode.SuccessOK;
 console.log(status); // Output: 200

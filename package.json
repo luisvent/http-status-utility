@@ -1,6 +1,6 @@
 {
   "name": "http-status-utility",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "JS utility to handle http status codes",
   "main": "index.js",
   "scripts": {
